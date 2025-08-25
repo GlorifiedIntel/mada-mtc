@@ -1,9 +1,5 @@
 /**
-* Template Name: Consulting
-* Template URL: https://bootstrapmade.com/bootstrap-consulting-website-template/
-* Updated: May 01 2025 with Bootstrap v5.3.5
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Author: Kevin Cross Minchakpu
 */
 
 (function() {
@@ -208,3 +204,12 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+
+  /**
+   * Display Current Year
+   */
+         const yearElement = document.getElementById('currentYear');
+         const currentDate = new Date();
+        const currentYear = currentDate.getFullYear();
+        yearElement.textContent = currentYear;
